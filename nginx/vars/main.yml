@@ -1,0 +1,5 @@
+---
+# vars file for nginx
+server_name: "{{ ansible_default_ipv4.address }}"
+document_root: /var/www/html
+app_root: demo

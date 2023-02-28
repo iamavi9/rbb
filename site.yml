@@ -1,0 +1,9 @@
+---
+
+- name: Nginx role installation
+  hosts: all
+  become: true
+  remote_user: ubuntu
+
+  roles:
+    - nginx
